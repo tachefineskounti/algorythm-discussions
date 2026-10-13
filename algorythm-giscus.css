@@ -95,3 +95,33 @@ body {
   color: #F2D8CC;
   border-color: #491F29;
 }
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.gsc-main {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 16px;
+}
+
+.gsc-comment-box {
+  width: 100%;
+  max-width: 100%;
+}
+
+.gsc-comment-box-bottom {
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.gsc-comment-box-bottom button {
+  max-width: 100%;
+}
