@@ -1,0 +1,97 @@
+
+/* ALGORYTHM — Thème Giscus */
+
+:root {
+  color-scheme: light;
+
+  --color-canvas-default: #EAE0D3;
+  --color-canvas-subtle: #F2D8CC;
+  --color-canvas-inset: #EAE0D3;
+  --color-canvas-overlay: #EAE0D3;
+
+  --color-fg-default: #241A1D;
+  --color-fg-muted: #715A60;
+  --color-fg-subtle: #806C70;
+  --color-fg-on-emphasis: #F2D8CC;
+
+  --color-border-default: #C9B5A9;
+  --color-border-muted: #D8C7BB;
+
+  --color-accent-fg: #491F29;
+  --color-accent-emphasis: #491F29;
+  --color-accent-muted: #F2D8CC;
+  --color-accent-subtle: #F2D8CC;
+
+  --color-btn-text: #491F29;
+  --color-btn-bg: #F2D8CC;
+  --color-btn-border: #C9B5A9;
+  --color-btn-hover-bg: #E8C6B8;
+  --color-btn-hover-border: #C69B68;
+
+  --color-btn-primary-text: #F2D8CC;
+  --color-btn-primary-bg: #491F29;
+  --color-btn-primary-border: #491F29;
+  --color-btn-primary-hover-bg: #64303C;
+  --color-btn-primary-hover-border: #64303C;
+
+  --color-neutral-muted: #F2D8CC;
+}
+
+html,
+body {
+  background: transparent !important;
+  color: #241A1D;
+  font-family: "Manrope", sans-serif;
+}
+
+.giscus,
+.giscus-frame {
+  width: 100%;
+}
+
+.gsc-main {
+  font-family: "Manrope", sans-serif;
+}
+
+.gsc-comment-box {
+  border: 1px solid #C9B5A9;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #EAE0D3;
+}
+
+.gsc-comment-box-main {
+  background: #EAE0D3;
+}
+
+.gsc-comment-box-textarea {
+  background: #F8F1E9;
+  color: #241A1D;
+  border-radius: 8px;
+}
+
+.gsc-header,
+.gsc-comments-count {
+  color: #491F29;
+}
+
+.gsc-reactions {
+  color: #491F29;
+}
+
+.gsc-comment {
+  border-radius: 14px;
+  border-color: #C9B5A9;
+}
+
+.gsc-comment-box-buttons button,
+.gsc-comment-box-bottom button {
+  border-radius: 8px;
+}
+
+.gsc-comment-box-buttons .btn-primary,
+.gsc-comment-box-bottom .btn-primary {
+  background: #491F29;
+  color: #F2D8CC;
+  border-color: #491F29;
+}
